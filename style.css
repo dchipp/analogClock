@@ -2,6 +2,11 @@
 :root{
     --dimension: 600px;
 }
+@media only screen and (max-width: 600px) {
+    :root{
+        --dimension: 350px
+    }
+  }
 body{
     margin:0px;
     font-family: 'Fugaz One', cursive;
